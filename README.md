@@ -15,6 +15,7 @@ Instead of asking AI tools generic questions, these prompts provide the necessar
 
   #### 📄 Resume Optimization Prompt
   #### ☁️ Learning Azure Databricks Prompt
+  #### 🎯 Job Application Email Prompt
   #### 🚀 Future Additions
 
 ## 🛠️ Compatible AI Tools
