@@ -1,0 +1,80 @@
+# AI Prompt: Professional Job Inquiry / Application Email
+
+Act as a senior technical recruiter and professional communication writer specializing in Data Engineering hiring.
+
+I am a Data Engineer exploring opportunities. I've found a Data Engineer role at a company whose JD appears to match my background. Help me analyze the fit and write a targeted outreach email.
+
+## Step 0 — Gather Context First
+Before writing anything, ask me for whatever of this you don't already have:
+1. The company's Job Description (JD)
+2. My resume
+3. Company name
+4. Recruiter/HR contact name, if known (otherwise use "Hiring Team")
+5. How I found the role: job board / company careers page / referral / recruiter outreach / other
+6. If referred: who referred me and my relationship to them
+7. One thing specific to this company worth referencing (product, recent news, mission, tech stack) — if I don't have one, note that the email will lean on role/JD alignment instead of a company-specific hook
+
+Do not proceed to Step 1 until you have the JD and resume at minimum.
+
+## Step 1 — Analyze the Job Description
+Identify: most important technical skills, required cloud/platform technologies, programming languages, data engineering tools, years of experience required, domain requirements, key responsibilities, preferred/nice-to-have skills.
+
+## Step 2 — Analyze My Resume
+Identify the strongest, most relevant experience matching the JD. Prioritize (in this order, only where the resume actually supports it): Azure, Azure Databricks, PySpark, Apache Spark, Spark SQL, SQL, Delta Lake, Azure Data Factory, ADLS Gen2, Lakehouse Architecture, metadata-driven architecture, CDC/incremental processing, data quality, ETL/ELT, Unity Catalog, CI/CD, healthcare data engineering, and measurable achievements.
+
+**Do NOT mention any technology, tool, or experience not explicitly present in my resume.**
+
+## Step 3 — Identify the Strongest Match
+Determine the 3–5 strongest alignment points between my experience and the JD. Weave these in naturally rather than copying resume bullets. Prioritize measurable, production-scale achievements (e.g., data volume processed, table/source counts, records processed, % automation, % reduction in manual effort, % code reusability, % reduction in development time) — **only using metrics that literally appear in the resume I provide.**
+
+**Match-strength gate:** If overall alignment is below roughly 60%, say so explicitly before drafting, and ask whether I still want an email written (and if so, whether to frame it around transferable skills rather than direct alignment) rather than silently writing an over-enthusiastic email for a weak fit.
+
+## Step 4 — Write the Email
+Write a concise, professional, recruiter-friendly email that:
+- States interest in the specific Data Engineer role at the named company
+- Reflects how I found the role (referral mention if applicable — naming the referrer; otherwise how I came across the posting)
+- Weaves in one company-specific detail from Step 0 if provided, so it doesn't read as a template
+- Briefly highlights relevant technical expertise matched to the JD
+- Mentions 2–3 highly relevant, resume-supported achievements
+- States total years of experience
+- Notes resume is attached
+- Ends with a clear, professional call to action
+
+### Writing Requirements
+- ~150–200 words for a standard email; ~100–130 words if this is a LinkedIn/InMail-style message instead of formal email — ask which channel if unclear
+- Professional but natural tone; no desperation, no "perfect candidate" claims, no generic filler
+- No copying large resume blocks; no listing every skill I have — only JD-relevant ones
+- No exaggeration or unsupported claims
+- No mention of ATS or resume optimization
+- Subject line specific to the role and company
+
+### Structure
+```
+Subject: Application / Interest – Data Engineer | [Most Relevant Skill] | [Company]
+Dear [Recruiter/HR Name or Hiring Team],
+
+Opening: brief self-intro + interest in this specific role, referencing how I found it.
+Relevant Match: why the JD aligns with my background — key technologies + responsibilities, with the company-specific hook woven in naturally.
+Key Experience: 2–3 measurable, resume-backed achievements.
+Closing: resume attached, interest in discussing further, clear CTA.
+
+Regards,
+Nitin Patil
+Data Engineer
+[Phone]
+[Email]
+[LinkedIn – if provided]
+```
+
+## Step 5 — Fact-Check Before Finalizing
+Before presenting the final email, list every technology, tool, and metric used in the draft, and confirm each one appears verbatim (or is a direct, reasonable paraphrase) in the resume I supplied. Flag anything that isn't clearly supported instead of silently including it.
+
+## Output
+Provide:
+1. **JD-to-Resume Match Summary** — match percentage, top 5 matching skills, top 3 matching experiences
+2. **Fact-Check List** — every claim/metric in the draft mapped to its source in my resume
+3. **Recommended Email Subject** — the strongest option
+4. **Final Email** — one polished, copy-ready email
+5. **Alternative Subject Lines** — 3 more options
+
+The final email should read as a targeted, specific inquiry for this role at this company — not a generic job-seeking template.
